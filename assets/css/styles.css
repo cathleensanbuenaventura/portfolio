@@ -784,7 +784,8 @@ display: grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
-  justify-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .work__card {
@@ -794,6 +795,7 @@ display: grid;
   text-align: center;
   transition: transform 0.3s ease;
   max-width: 350px;
+  margin: 0 auto;
 }
 
 .work__card:hover {
@@ -995,6 +997,8 @@ display: grid;
 @media screen and (max-width: 992px) {
   .container {
     max-width: 720px;
+    /*display: flex;
+    justify-content: center;*/
   }
 
   .home__container,
