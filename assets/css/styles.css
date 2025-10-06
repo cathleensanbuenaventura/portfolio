@@ -785,12 +785,12 @@ display: grid;
   align-items: center;
 }
 
-.work__card {
+/*.work__card {
   max-width: 350px;
   margin: 0 auto;
-}
+}*/
 
-/*.work__card {
+.work__card {
   background-color: var(--container-color);
   border-radius: 1rem;
   overflow: hidden;
@@ -798,7 +798,7 @@ display: grid;
   transition: transform 0.3s ease;
   max-width: 350px;
   margin: 0 auto;
-}*/
+}
 
 .work__card:hover {
   transform: translateY(-8px);
