@@ -777,11 +777,12 @@ display: grid;
 
 .work__container {
   display: grid;
-  /*grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;*/
-  justify-content: center; 
-  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
   align-items: center;
+  /*justify-content: center; 
+  justify-content: center;
+  align-items: center;*/
 }
 
 .work__card {
