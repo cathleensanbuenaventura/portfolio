@@ -553,6 +553,7 @@ input[type='checkbox'] {
 
 .about__bottom {
   column-gap: 3rem;
+  margin-bottom: 1rem; /* adds space below the CV button */
 }
 
 .about__social-links {
@@ -778,7 +779,7 @@ display: grid;
 .work__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
   justify-content: center; 
   align-items: center;
@@ -998,8 +999,8 @@ display: grid;
 @media screen and (max-width: 992px) {
   .container {
     max-width: 720px;
-    /*display: flex;
-    justify-content: center;*/
+    display: flex;
+    justify-content: center;
   }
 
   .home__container,
