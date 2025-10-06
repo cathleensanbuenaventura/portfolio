@@ -772,21 +772,21 @@ display: grid;
 /*.work__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Keeps two columns
-    justify-content: center; /* Centers the grid horizontally */
-  }
-  
+    justify-content: center; /* Centers the grid horizontally 
+  }*/
+
+.work__container {
+  display: grid;
+  /*grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;*/
+  justify-content: center; 
+  justify-content: center;
+  align-items: center;
+}
 
 .work__card {
   position: relative;
   cursor: pointer;
-}*/
-.work__container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  justify-content: center; 
-  /*justify-content: center;
-  align-items: center;*/
 }
 
 .work__card {
@@ -804,7 +804,7 @@ display: grid;
 }
 
 .work__img {
-  /*vertical-align: middle;*/
+  vertical-align: middle;
   width: 100%;
   height: 200px;
   object-fit: cover;
