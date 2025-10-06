@@ -785,10 +785,10 @@ display: grid;
   align-items: center;
 }
 
-/*.work__card {
+.work__card {
   max-width: 350px;
   margin: 0 auto;
-}*/
+}
 
 .work__card {
   background-color: var(--container-color);
