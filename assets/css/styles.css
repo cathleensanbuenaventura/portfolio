@@ -769,20 +769,42 @@ display: grid;
 }
 
 /*=============== PORTFOLIO ===============*/
-.work__container {
+/*.work__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Keeps two columns */
-    justify-content: center; /* Centers the grid horizontally */
+    justify-content: center; /* Centers the grid horizontally 
   }
   
 
 .work__card {
   position: relative;
   cursor: pointer;
+}*/
+.work__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.work__card {
+  background-color: var(--container-color);
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+  max-width: 350px;
+}
+
+.work__card:hover {
+  transform: translateY(-8px);
 }
 
 .work__img {
-  vertical-align: middle;
+  /*vertical-align: middle;*/
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .work__details {
