@@ -22,12 +22,11 @@ While I’m still exploring whether to pursue a career in cybersecurity or softw
 
 - cuHacking Community Engagement Organizer – Support community-driven initiatives, coordinate outreach efforts, and help foster an inclusive tech community.
 
-- Academic Support Volunteer (Discrete Mathematics) – Provided structured course notes to support students requiring academic accommodations.
-
 - IRONMAN and Run Ottawa Seasonal Volunteer – Assisted in large-scale endurance sporting events, contributing to race operations and participant support.
 
 - Vice President External, International Studies Association (ISSo) – Led external relations, partnerships, and inter-organizational collaboration at the University of the East (Philippines).
 
+- Academic Support Volunteer (Discrete Mathematics) – Provided structured course notes to support students requiring academic accommodations.
 ---
 
 ## 🛠️ Skills 
