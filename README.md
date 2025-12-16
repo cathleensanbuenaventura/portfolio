@@ -18,7 +18,7 @@ While I’m still exploring whether to pursue a career in cybersecurity or softw
 - CompTIA Security+ Certified (Sept. 30, 2025)
 ---
 
-## 🤝 Leadership & Volunteering
+## Leadership & Volunteering
 
 - cuHacking Community Engagement Organizer – Support community-driven initiatives, coordinate outreach efforts, and help foster an inclusive tech community.
 
@@ -29,7 +29,7 @@ While I’m still exploring whether to pursue a career in cybersecurity or softw
 - Academic Support Volunteer (Discrete Mathematics) – Provided structured course notes to support students requiring academic accommodations.
 ---
 
-## 🛠️ Skills 
+## Skills 
 ### Technical Skills
 - **Programming Languages:** Python, C/C++, Java, JavaScript, SQL, HTML/CSS 
 
@@ -57,7 +57,7 @@ While I’m still exploring whether to pursue a career in cybersecurity or softw
 
 ---
 
-## 📬 Contact
+## Contact
 
 List your professional contact channels: email, LinkedIn, GitHub profile, and optionally Twitter/website.
 
