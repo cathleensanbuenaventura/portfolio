@@ -1,6 +1,6 @@
 <!-- Portfolio README — single-file documentation for the portfolio website -->
 
-# Cathleen San Buenaventura — Developer Portfolio
+# Cathleen San Buenaventura
 
 ---
 
@@ -33,7 +33,7 @@ While I’m still exploring whether to pursue a career in cybersecurity or softw
 ### Technical Skills
 - **Programming Languages:** Python, C/C++, Java, JavaScript, SQL, HTML/CSS 
 
-- **Frameworks & Web Technologies:** React, Node.js, Express, Next.js, Bootstrap 
+- **Frameworks & Web Technologies:** React, Node.js, Express, Next.js 
 
 - **Cybersecurity & Networking:** Packet analysis (Wireshark, tcpdump), vulnerability scanning (Nmap), OWASP Top 10, OSI & TCP/IP fundamentals 
 
