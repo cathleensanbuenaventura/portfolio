@@ -381,6 +381,55 @@ input[type='checkbox'] {
   font-weight: var(--weight-300);
 }
 
+/* ---- Rotating roles ---- */
+.home__roles {
+  height: 1.8rem;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.home__role {
+  display: block;
+  font-size: var(--large-font-size);
+  font-weight: var(--weight-600);
+  color: var(--first-color);
+  letter-spacing: 1px;
+  animation: role-slide 9s cubic-bezier(.68, -0.15, .27, 1.15) infinite;
+}
+
+@keyframes role-slide {
+  0%, 26%   { transform: translateY(0); }
+  33%, 59%  { transform: translateY(-100%); }
+  66%, 92%  { transform: translateY(-200%); }
+  100%      { transform: translateY(-300%); }
+}
+
+/* ---- Highlighted keywords ---- */
+.home__highlight {
+  color: var(--first-color);
+  font-weight: var(--weight-600);
+}
+
+/* ---- Staggered fade-in ---- */
+.home__fade-in {
+  opacity: 0;
+  transform: translateY(18px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.home__fade-in:nth-child(1) { animation-delay: 0.1s; }
+.home__fade-in:nth-child(2) { animation-delay: 0.3s; }
+.home__fade-in:nth-child(3) { animation-delay: 0.5s; }
+.home__fade-in:nth-child(4) { animation-delay: 0.7s; }
+.home__fade-in:nth-child(5) { animation-delay: 0.9s; }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .home__description {
   margin-block: 1.5rem 3rem;
 }
@@ -497,27 +546,39 @@ input[type='checkbox'] {
 
 .about__img:nth-child(1) {
   clip-path: polygon(0 0, 0 32%, 28% 0);
-  transform: translateY(-1.25rem);
+  transform: translateY(0);
 }
 
 .about__img:nth-child(2) {
   clip-path: polygon(28% 0, 0 32%, 0 100%, 17% 100%, 90% 0);
-  transform: translateY(-0.75rem);
+  transform: translateY(0);
 }
 
 .about__img:nth-child(3) {
   clip-path: polygon(100% 0, 100% 65%, 74% 100%, 17% 100%, 90% 0);
-  transform: translateY(-0.25rem);
+  transform: translateY(0);
 }
 
 .about__img:nth-child(4) {
   clip-path: polygon(100% 65%, 74% 100%, 100% 100%);
-  transform: translateY(0.25rem);
+  transform: translateY(0);
 }
 
 /* About img hover */
-.about__img-wrapper:hover .about__img {
-  transform: translateY(0);
+.about__img-wrapper:hover .about__img:nth-child(1) {
+  transform: translateY(-1.25rem);
+}
+
+.about__img-wrapper:hover .about__img:nth-child(2) {
+  transform: translateY(-0.75rem);
+}
+
+.about__img-wrapper:hover .about__img:nth-child(3) {
+  transform: translateY(-0.25rem);
+}
+
+.about__img-wrapper:hover .about__img:nth-child(4) {
+  transform: translateY(0.25rem);
 }
 
 .about__description {
