@@ -859,6 +859,7 @@ display: grid;
   transition: transform 0.3s ease;
   max-width: 350px;
   margin: 0 auto;
+  display: block;
 }
 
 .work__card:hover {
@@ -904,12 +905,32 @@ display: grid;
   font-size: var(--large-font-size);
 }
 
+.work__tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  transform: translateY(1.5rem);
+  transition: all 0.3s ease-in-out;
+}
+
+.work__tag {
+  font-size: 0.75rem;
+  font-weight: var(--weight-600);
+  color: var(--first-color-light);
+  background-color: hsla(0, 0%, 100%, 0.08);
+  border: 1px solid var(--first-color);
+  border-radius: 2rem;
+  padding: 0.2rem 0.7rem;
+}
+
 /* Work hover */
 .work__card:hover .work__details {
   opacity: 1;
 }
 
-.work__card:hover :is(.work__title, .work__description) {
+.work__card:hover :is(.work__title, .work__description, .work__tags) {
   transform: translateY(0);
 }
 
